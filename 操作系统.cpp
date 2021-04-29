@@ -366,6 +366,7 @@ void RR(int n)
 		sumdai+=(rr[i].finishtime*1.0-rr[i].arrivetime)/rr[i].servicetime*1.0;
 	}
 	printf("平均周转时间：%.2f   平均带权周转时间：%.2f",sumzhou*1.0/n,sumdai/n);
+	printf("时间片轮转调度算法运行结束！")
 	system("pause");
 }
 int main()
