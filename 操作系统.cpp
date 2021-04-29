@@ -143,6 +143,7 @@ void SPF(int n)
 		sumdai+=(sjf[i].finishtime*1.0-sjf[i].arrivetime)/sjf[i].servicetime*1.0;
 	}
 	printf("平均周转时间：%.2f   平均带权周转时间：%.2f",sumzhou*1.0/n,sumdai/n);
+	printf("短作业优先调度算法运行结束！")
 	system("pause");
 }
 void SP(int n)
